@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+body{
+   background: url(img/175027.png);
+   font-family: 'Raleway', sans-serif;
+   padding: 100px 0;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+/* шапка */
+.container {
+width: 800px;
+min-height: 500px;
+border: 5px solid #fff;
+margin: 0 auto; 
+background: #fff;
+}
+
+.header {
+    display: flex; 
+    height: 150px;
+    
+}
+.title-block{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+    font-size: 22px;
+    margin-right: 10px;
+    background: url('https://www.dacimasoftware.com/wordpress/wp-content/uploads/2015/06/BACKGROUND-TOP-2.jpg')no-repeat center center / cover; 
+    
+}
+.userpic{
+    display: flex;
+    height: 100%;
+    width: 20%;
+    background:url('https://earth-chronicles.ru/Publications_4/88/2/n2.jpg')no-repeat center center / cover;
+}
+.nav ul{
+display: flex;
+background: #cccccc;
+margin: 10px 0;
+}
+.nav li{
+
+}
+.nav li a{
+padding: 20.8px;
+display: flex;
+text-decoration: none;
+color: #404040;
+font-weight: bold;
+border-right: solid 1px #b3b3b3;
+transition: background 0.5s ease;
+}
+.nav li a:hover{
+    background: rgb(196, 196, 196);
+}
+/* 1 страница */
+.content{
+    text-align: center;
+    margin: 30px;
+}
+.content p {
+    line-height: 10 px;
+}
+
+/* 2 страница */
+
+.second{
+    text-align: left;
+    margin: 30px;
+}
+.second p {
+    line-height: 10 px;
+}
+.image-center{
+    display: block;
+    margin: auto;
+}
+
+/* 3 страница */
+.th{
+    text-align: left;
+    margin: 30px;
+}
+.th p {
+    line-height: 10 px;
+}
+.image2{
+    display: flex;
+    align-items: left;
+}
+.the{
+    text-align: left;
+    margin: 30px;
+}
+.the p {
+    line-height: 10 px;
+}
+.image3{
+    display: flex;
+    align-items: left;
+}
+/* подвал */
+
+.footer{
+width: 810px;
+min-height: 70px;
+margin: 0 auto; 
+background: rgb(199, 198, 198);
+text-align: center;
+}
